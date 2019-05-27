@@ -1,0 +1,242 @@
+.wrap{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.header{
+	height: 0.45rem;
+	/* border: 1px solid red; */
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.header p{
+	font-size: 0.18rem;
+	font-weight: bold;
+	
+}
+.header img{
+	width: 0.1rem;
+	height: 0.175rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.1rem;
+}
+.header-2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.header-2-1 {
+	display: flex;
+	width: 100%;
+	padding: 0.18rem 0.15rem 0 0.25rem;
+}
+.header-2-1 img{
+	flex: 34;
+	/* border: 1px solid red; */
+	height: 0.17rem;
+	
+}
+.header-2-1 p:nth-of-type(1){
+	font-size: 0.14rem;
+	flex: 535;
+	/* border: 1px solid red; */
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	height: 0.19rem;
+	line-height: 0.19rem;
+
+}
+.header-2-1 p:nth-of-type(2){
+	font-size: 0.12rem;
+	flex: 101;
+	/* border: 1px solid red; */
+	height: 0.19rem;
+	line-height: 0.19rem;
+
+
+}
+.header-2-2,.header-2-3{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* border: 1px solid red; */
+}
+.header-2-3{
+	margin-top: 0.2rem;
+}
+.header-2-2 img{
+	width: 1.13rem;
+	height: 1.27rem;
+}
+.header-2-3 img{
+	width: 0.33rem;
+	height: 0.33rem;
+}
+
+.header-2-4 {
+	display: flex;
+	width: 100%;
+	padding: 0.25rem 0.15rem 0 0.25rem;
+}
+.header-2-4 img{
+	flex: 34;
+	/* border: 1px solid red; */
+	height: 0.17rem;
+	
+}
+.header-2-4 p{
+	font-size: 0.14rem;
+	flex: 636;
+	/* border: 1px solid red; */
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	height: 0.19rem;
+	line-height: 0.19rem;
+
+}
+.header-2-5{
+	display: flex;
+	width: 100%;
+	padding: 0.15rem 0.25rem 0.21rem;
+}
+.header-2-5 p:nth-of-type(1){
+	flex: 400;
+	font-size: 0.12rem;
+}
+.header-2-5 p:nth-of-type(2){
+	flex: 226;
+	font-size: 0.12rem;
+
+}
+.header-2-5 img{
+	flex: 24;
+	width: 0.12rem;
+	height: 0.12rem;
+}
+.body{
+	padding: 0 0.25rem;
+}
+.body ul{
+	display: flex;
+	flex-wrap: wrap;
+	height: 5.73rem;
+	align-content: space-between;
+	justify-content:space-between;
+}
+.body ul li{
+	width: 1.5rem;
+	height: 1.32rem;
+	border: 1px solid #e1e1e1;
+	border-radius: 0.045rem;
+}
+.top{
+	display: flex;
+	height: 0.87rem;
+	padding: 0 0.15rem;
+}
+.top-left{
+	flex: 182;
+	padding: .15rem 0 .1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top-left span{
+	font-size: 0.12rem;
+}
+.top-left p:nth-of-type(1){
+	font-size: 0.15rem;
+	color: #bcbcbc;
+}
+.top-left p:nth-of-type(2){
+	font-size: 0.24rem;
+	color: #656565;
+}
+.top-left p:nth-of-type(3){
+	font-size: 0.1rem;
+	color: #878787;
+}
+.top-right{
+	flex: 58;
+	/* border: 1px solid red; */
+	display: flex;
+	padding-top: 0.15rem;
+}
+.top-right img{
+	width: 0.29rem;
+	height: 0.25rem;
+	/* border: 1px solid blue; */
+}
+.down{
+	height: 0.43rem;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #e1e1e1;
+}
+.down img{
+	width: 0.16rem;
+	height: 0.16rem;
+	/* border: 1px solid red; */
+
+}
+.footer-1{
+	height: .55rem;
+	/* border: 1px solid red; */
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+.footer-1 p{
+	font-size: 0.11rem;
+}
+.footer-2{
+	height: 0.64rem;
+	display: flex;
+	padding: 0 0.25rem;
+	border-top: 1px solid #E1E1E1;
+	width: 100%;
+}
+.footer-2-left p:nth-of-type(1){
+	font-size: 0.11rem;
+}
+.footer-2-left p:nth-of-type(2){
+	font-size: 0.21rem;
+	font-weight: bold;
+}
+.footer-2-left{
+	flex: 1;
+	/* border: 1px solid red; */
+	padding: .15rem 0 0 .06rem;
+}
+.footer-2-right{
+	flex: 1;
+	font-size: 0.15rem;
+	/* padding: 0.15rem 0 0 0.81rem; */
+	/* box-sizing: border-box; */
+	/* border: 1px solid red; */
+	
+	
+}
+.a-box{
+	text-align: center;
+	/* border: 1px solid red; */
+	
+}
+.footer-2-right>.a-box>a{
+	/* font-size: 0.15rem; */
+	/* color: #000000; */
+	margin: 0.15rem 0 0 0.81rem;
+	/* border: 1px solid red; */
+	width: 0.75rem;
+	height: 0.33rem;
+	display: block;
+	background: #69be49;
+	border-radius: 0.045rem;
+	line-height: 0.33rem;
+}
